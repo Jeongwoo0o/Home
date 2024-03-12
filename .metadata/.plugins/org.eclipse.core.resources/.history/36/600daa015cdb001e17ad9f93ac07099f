@@ -1,0 +1,55 @@
+package d_array;
+
+public class Ex00_배열초기화 {
+	public static void main(String[] args) {
+
+		//배열 변수 선언
+		int [] kor;
+		//배열 객체 생성
+		kor = new int [5];
+		
+		kor[0] = 83;
+		kor[1] = 90;
+		kor[2] = 24;
+		kor[3] = 56;
+		kor[4] = 68;
+		
+		int total = 0;
+		for(int j = 0; j < 5; j++) {
+			total += kor[j];
+		}
+
+		System.out.println("총점 : " + total);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+package c_control;
+
+public class 복습2 {
+	public static void main(String[] args) {
+
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j <= i; j++) {
+				System.out.print("*");
+			}	//	end for(j)
+			System.out.println();
+		}	//	end for(i)
+		
+		for(int i = 0; i < 5; i++) {
+			for(int j = 0; j <= i; j++) {
+				System.out.print("*");
+			}	//	end for(j)
+			System.out.println();
+		}	//	end for(i)
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

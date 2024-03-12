@@ -1,0 +1,30 @@
+package d_constructor2;
+
+public class GradeExpr {
+	
+	int[] jumsu;
+	
+	GradeExpr(int[] jumsu) {
+		this.jumsu = jumsu;
+	}
+	
+	double getAverage() {
+		return 0;
+	}
+	
+	int getTotal() {
+		int total = 0;
+		for(int i = 0; i < jumsu.length; i++) {
+			total += jumsu[i];
+		}
+		return 0;
+	}
+	
+	int getGoodScore() {
+		return 0;
+	}
+	
+	int getBadScore() {
+		return 0;
+	}
+}

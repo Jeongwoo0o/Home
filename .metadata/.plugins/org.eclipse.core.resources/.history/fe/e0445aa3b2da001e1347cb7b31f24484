@@ -1,0 +1,67 @@
+package c_control;
+import java.util.Scanner;
+
+public class Ex11_dowhile연습 {
+	public static void main(String[] args) {
+		
+		//	구구단의 단수를 입력받아서 해당 구구단을 출력
+		
+		Scanner in = new Scanner(System.in);
+		System.out.print("입력 : ");
+		int dan = in.nextInt();
+		
+		int i = 1;
+		
+		for(i = 1; i <= 9; i++) {
+			System.out.println(dan + " * " + i + " = " + dan*i);
+		}
+		
+		do {
+			System.out.println(dan + " * " + i + " = " + dan*i);
+			i++;
+		} while(i <= 9);	//	end do-while(i)
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

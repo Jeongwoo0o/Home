@@ -1,0 +1,52 @@
+package y_useful;
+import java.util.*;
+
+public class StringTokenizer샘플 {
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("문장 입력 : ");				// 안녕 하이 홍길동
+		String sent = input.nextLine();
+		System.out.println(sent);
+		
+		StringTokenizer st = new StringTokenizer(sent);
+		System.out.println(st);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+package d_array;
+
+public class Ex00_배열초기화 {
+	public static void main(String[] args) {
+
+		//배열 변수 선언
+		int [] kor;
+		//배열 객체 생성
+		kor = new int [5];
+		
+		kor[0] = 83;
+		kor[1] = 90;
+		kor[2] = 24;
+		kor[3] = 56;
+		kor[4] = 68;
+
+		for(int i = 0; i < 5; i++) {
+			System.out.println("학생" + (i+1) + "의 " + "점수 : " + kor[i]);
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

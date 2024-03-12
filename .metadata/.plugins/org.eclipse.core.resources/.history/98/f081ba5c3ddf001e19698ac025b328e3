@@ -1,0 +1,135 @@
+import java.util.Arrays;
+
+public class 입사문제 {
+	public static void main(String[] args) {
+
+		/* 문제 1
+		int num = 33;
+		int na = 0, st = 0, result = 0;
+
+		for(int i = 1; i <= num; i++) {
+			int su = i;
+			st = 0;
+
+			while(su != 0) {
+				na = su % 10;
+				if(na == 3 || na == 6 || na == 9) {
+					result += 1;
+					st += 1;
+				}	//	end if(na)
+				su /= 10;
+			}	//	end while()
+			if(st > 1) {
+				result -= st-1;
+			}
+		}	//	end for(i)
+		System.out.println(result);
+		 */
+
+		/* 문제 2
+		int mod1 = 3, mod2 = 4, max_range = 20;
+		int st = 0;
+
+		for(int i = 1; i <= max_range; i++) {
+			if(i % mod1 == 0 && i % mod2 != 0) {
+				st += 1;
+			}
+		}
+		System.out.println(st);
+		 */
+
+
+		// 정렬
+		int[] arr = new int[] {3,4,4,2,5,2,5,5};
+		int[] arr2 = new int[arr.length];
+		for(int i = arr.length-1; i > 0; i--) {
+			for(int j = 0; j < i; j++) {
+				if(arr[j] > arr[j+1]) {
+					int tmp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = tmp;
+				}	//end if
+			}	//end for(j)
+		}	//end for(i)
+		
+		int st = 0;
+		String str = "";
+		for(int i = 0; i <= 100000; i++) {
+			for(int j = 0; j < arr.length; j++) {
+				if(i == arr[j]) {
+					st++;
+				}
+				if(st == 1) {
+					str = str + i + " ";
+					st = 0;
+				} else if(st == 0) {
+					str = "-1";
+				}
+			}
+		}
+		
+		System.out.println(str);
+		
+		
+		
+//		int st = 0;
+//		for (int i = 0; i < arr.length-1; i++) {
+//			if(arr[i] == arr[i+1]) {
+//				st = i;
+//				for(int j = 0; j < st; j++) {
+//					arr2[j] = arr[j];
+//				}
+//			}
+//		}
+
+//		for(int i = 0; i < arr.length; i++) {
+//			System.out.print(arr2[i] + " ");
+//		}
+
+
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

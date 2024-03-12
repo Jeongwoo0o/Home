@@ -1,0 +1,10 @@
+package z_recursive;
+
+public class ASumTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

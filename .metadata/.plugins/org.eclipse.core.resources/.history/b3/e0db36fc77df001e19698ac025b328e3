@@ -1,0 +1,26 @@
+package d_constructor2;
+
+public class GradeExpr {
+	
+	int[] jumsu;
+	
+	int[] GradeExpr() {
+		
+	}
+	
+	double getAverage() {
+		
+	}
+	
+	int getTotal() {
+		
+	}
+	
+	int getGoodScore() {
+		
+	}
+	
+	int getBadScore() {
+		
+	}
+}

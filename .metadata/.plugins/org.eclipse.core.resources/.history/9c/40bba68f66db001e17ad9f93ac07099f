@@ -1,0 +1,72 @@
+package d_array;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class Ex01_성적2 {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		System.out.print("학생 수를 입력하세요 : ");
+		int su = input.nextInt();
+		
+		String [] score = new String[su];
+		int total = 0;
+		
+		System.out.print(su + "명의 국어 점수를 입력(ex. 99/88/77) : ");
+		score[] = input.nextLine();
+		
+		for(int i = 0; i < su; i++) {
+			
+			StringTokenizer st = new StringTokenizer(score[i], "/");
+			jum = Integer.parseInt(score[i]);
+		}
+		for(int j = 0; j < su; j++) {
+			total += jum;
+		}
+		
+	
+		
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+package f_exception;
+
+import java.io.IOException;
+
+class asd{
+	public static void main( String [] args ) {   
+		try{
+			System.exit(0);
+		} finally {
+			System.out.println("FINALLY");
+		} 
+	}
+}

@@ -1,0 +1,48 @@
+[1]
+
+
+	int substract(int a1, int b1) {
+		int result1 = a1 - b1;
+		return result1;
+	}
+	
+	
+[2]
+
+
+	void greeting(int a2) {
+		String hi = "";
+		switch(a2) {
+			case 1:	hi = "안녕하세요";	break;
+			case 2:	hi = "굿모닝";	break;
+			case 3:	hi = "올라";		break;
+			case 4:	hi = "곤니치와";	break;
+		}
+		System.out.println(hi);
+	}
+	
+	
+[3]
+
+
+	void loopMethod(int a3) {
+		System.out.println("자바는 맛있다.");
+	}
+	
+	
+[4]
+
+
+	double circle(double a4) {
+		double result4 = a4 * a4 * Math.PI;
+		return result4;
+	}
+		
+	
+[5]
+
+
+	int square(int a5, int b5) {
+		int result5 = a5 * b5;
+		return result5;
+	}

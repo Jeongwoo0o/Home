@@ -1,0 +1,9 @@
+package b_encapsulation;
+
+public class CalculatorExpr {
+	
+	private int num1;
+	private int num2;
+	
+	void
+}

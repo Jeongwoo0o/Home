@@ -1,0 +1,50 @@
+package f_exception;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Ex02_TryCatch {
+	public static void main(String[] args) {
+
+		try {
+			FileInputStream fis = new FileInputStream("abc.txt");
+			System.out.println("파일 연결");
+//			fis.close();
+		} catch (FileNotFoundException ex){
+			System.out.println("파일이 없는 예외 발생");
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

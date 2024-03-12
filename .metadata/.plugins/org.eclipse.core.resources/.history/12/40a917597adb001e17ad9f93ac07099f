@@ -1,0 +1,54 @@
+package d_array;
+
+public class Ex03_정렬 {
+	public static void main(String[] args) {
+
+		int [] su = {20,2,49,8,12,5};
+		
+		for(int i = 0; i < su.length; i++) {
+			System.out.print(su[i] + " ");
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

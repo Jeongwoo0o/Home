@@ -1,0 +1,78 @@
+
+ String hakbun;
+ int kor , eng, math;
+
+-------------------------------배열
+ String[] hakbun = new String[30];
+ int[] kor = new int[30];
+ int[] eng = new int[30];
+ int[] math = new int[30];
+
+---------------------------structure
+
+ String hakbun;
+ int kor;
+ int eng;
+ int math;
+ 
+ ------------------------------class
+
+ String hakbun;
+ int kor;
+ int eng;
+ int math;
+
+ 함수들;
+------------------------------------
+** OOP (Object Oriented Programming)
+
+
+	* 클래스
+		서로 다른 자료형의 변수들과 함수들의 묶음
+		- 변수 : field
+		- 함수 : method
+		
+	class student {
+	
+		String hakbun;
+ 		int kor;
+ 		int eng;
+ 		int math;
+ 		
+ 		void output(){}
+ 		void input(){}
+	
+	}
+
+	Student s = new Student();	// 메모리에 올리기 위해 new 사용
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

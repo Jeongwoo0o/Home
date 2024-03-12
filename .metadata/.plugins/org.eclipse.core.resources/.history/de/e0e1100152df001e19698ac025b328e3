@@ -1,0 +1,14 @@
+package c_array;
+import java.util.Scanner;
+
+public class Main {
+	
+	// 3명의 학생의 국영수 점수를 입력받아 총점과 평균 구하기
+	public static void main(String[] args) {
+
+		Student[] s = new Student[3];
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("");
+	}
+}

@@ -1,0 +1,62 @@
+
+public class 방탈출1 {
+	public static void main(String[] args) {
+
+		int st = 0;
+		for(int i = 1; i <= 10000; i++) {
+			int su = i;
+			boolean su369 = false;
+			
+			while(su != 0) {
+				int na = su % 10;
+				if(na == 8) {
+					st += 1;
+					su369 = true;
+				}	//	end if(na)
+				su /= 10;
+			}	//	end while(su)
+			
+		}	//	end for(i)
+		System.out.println(st);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

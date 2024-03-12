@@ -1,0 +1,60 @@
+package d_constructure;
+
+/*
+ * 	생성자 함수(constructure)
+ * 		- 클래스의 멤버값을 초기화 할 때 사용
+ * 	
+ * 		- 클래스가 객체화(인스턴스화)될 때 실행되는 함수 : new 사용 시
+ * 
+ * 		- 클래스명과 동일한 이름이여야 함
+ * 			+ 리턴형이 없음(void도 있으면 안됨)
+ * 
+ * 	[참고]
+ * 		class A {
+ * 			int A = 10;
+ * 			void A() {일반함수}
+ * 			A() {생성자함수}
+ * 		}
+ */
+
+public class Student {
+
+	private String name;
+	private int kor, eng, math;
+	private int total;
+	private double avg;
+	
+	public int calTotal() {
+		total = kor + eng + math;
+		return total;
+	}
+	
+	public double calAvg() {
+		avg = (double)total / 3;
+		return avg;
+	}
+
+	// getter : 값을 밖으로 뺌
+	public String getName() {
+		return name;
+	}
+
+	// setter
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setKor(int kor) {
+		this.kor = kor;
+	}
+
+	public void setEng(int eng) {
+		this.eng = eng;
+	}
+
+	public void setMath(int math) {
+		this.math = math;
+	}
+}
+
+

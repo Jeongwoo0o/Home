@@ -1,0 +1,13 @@
+package d_exercise;
+
+public class Main1 {
+	public static void main(String[] args) {
+
+		Customer c = new Customer();
+		c.setTel("1234");
+		c.setName("홍길순");
+		c.setMileage(10000);
+		
+		c.output();
+	}
+}

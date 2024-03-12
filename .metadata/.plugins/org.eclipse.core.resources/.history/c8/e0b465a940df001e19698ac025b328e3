@@ -1,0 +1,13 @@
+
+ String hakbun;
+ int kor , eng, math;
+
+ -----------------------------------
+ String[] hakbun = new String[30];
+ int[] kor = new int[30];
+ int[] eng = new int[30];
+ int[] math = new int[30];
+
+
+------------------------------------
+** OOP (Object Oriented Programming)

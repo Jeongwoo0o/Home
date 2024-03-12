@@ -7,8 +7,11 @@ public class Main {
         Book b2 = new Book();
         Book b3 = new Book();
 
-        System.out.println("책 개수 : " + b1.count);
-        System.out.println("책 개수 : " + b2.count);
-        System.out.println("책 개수 : " + b3.count);
+        System.out.println("책 개수 : " + Book.getCount());
+        System.out.println("책 개수 : " + Book.getCount());
+        System.out.println("책 개수 : " + Book.getCount());
+        // System.out.println("책 개수 : " + b1.getCount());
+        // System.out.println("책 개수 : " + b2.getCount());
+        // System.out.println("책 개수 : " + b3.getCount());
     }
 }

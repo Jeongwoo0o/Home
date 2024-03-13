@@ -2,19 +2,20 @@ package i_inherit2;
 
 public class Item {
 
-    String num;
-    String title;
+    protected String num;
+    protected String title;
 
-    Item() {
-
+    public Item() {
+        System.out.println("부모 기본생성자");
     }
 
-    Item(String num, String title) {
+    public Item(String num, String title) {
         this.num = num;
         this.title = title;
+        System.out.println("부모 인자생성자");
     }
 
-    void output() {
+    public void output() {
 
     }
 }

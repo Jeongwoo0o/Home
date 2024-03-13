@@ -1,0 +1,24 @@
+
+ [1]    class A {
+ [2]        int A;
+ [3]        A() {}
+ [4]        void A() {}
+    }
+
+[1]   public default abstract final
+
+[2]   public default private protected static final
+
+[3]   public default private protected
+
+[4]   public default private protected static abstract final
+
+*   상속관계
+        - 클래스        : 단일상속  extends
+        - 인터페이스    : 다중상속  implements
+
+
+    interface B {   변수 : 상수, 클래스 : 추상
+        [public static funal]int B;
+        [public abstract]void B();
+    }

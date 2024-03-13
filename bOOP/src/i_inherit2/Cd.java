@@ -5,7 +5,7 @@ public class Cd extends Item {
     String singer;
 
     Cd() {
-
+        
     }
 
     Cd(String num, String title, String singer) {
@@ -14,7 +14,7 @@ public class Cd extends Item {
         this.singer = singer;
     }
 
-    void output() {
+    public void output() {
         System.out.println("번호 : " + num);
         System.out.println("제목 : " + title);
         System.out.println("가수 : " + singer);

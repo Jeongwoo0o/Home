@@ -13,6 +13,10 @@ public class Book {
 
     private static int count = 0;
 
+    static {
+        System.out.println("단 한번만 실행");
+    }
+
     public Book(){
         count++;
         System.out.println("책 한권 생성");

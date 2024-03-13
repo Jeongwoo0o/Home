@@ -16,7 +16,7 @@ public class Dvd extends Item {
         this.director = director;
     }
 
-    void output() {
+    public void output() {
         System.out.println("번호 : " + num);
         System.out.println("제목 : " + title);
         System.out.println("배우 : " + actor);

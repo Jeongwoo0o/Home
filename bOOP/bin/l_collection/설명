@@ -1,0 +1,15 @@
+
+    자바 콜렉션 (자료구조)
+
+1. List
+    ` 인덱스로 데이터 관린
+    ex) ArrayList / xxxxList
+
+2. Set
+    ` 인덱스가 없음
+    ` 중복처리 안됨
+    ex) HashSet / TreeSet
+
+3. Map
+    ` key와 value 관리
+    ` key값으로 value를 찾는 구조

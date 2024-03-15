@@ -18,17 +18,17 @@ public class Ex07_로또 {
 		}	//end for(i)
 		
 		// 정렬
-//		for(int i = 0; i < lotto.length; i++) {				// 행 0~4 반복(lotto.length(5))
-//			for(int j = lotto[i].length-1; j > 0; j--) {	// lotto[i].length-1(5) -> 5번 반복
-//				for(int k = 0; k < j; k++) {				// i행 0열~5열 비교
-//					if(lotto[i][k] > lotto[i][k+1]) {		// 참이면 교환
-//						int temp 	= lotto[i][k];
-//						lotto[i][k] 	= lotto[i][k+1];
-//						lotto[i][k+1] 	= temp;
-//					}	//end if
-//				}	//end for(k)
-//			}	//end for(j)
-//		}	//end for(i)
+		for(int i = 0; i < lotto.length; i++) {				// 행 0~4 반복(lotto.length(5))
+			for(int j = lotto[i].length-1; j > 0; j--) {	// lotto[i].length-1(5) -> 5번 반복
+				for(int k = 0; k < j; k++) {				// i행 0열~5열 비교
+					if(lotto[i][k] > lotto[i][k+1]) {		// 참이면 교환
+						int temp 	= lotto[i][k];
+						lotto[i][k] 	= lotto[i][k+1];
+						lotto[i][k+1] 	= temp;
+					}	//end if
+				}	//end for(k)
+			}	//end for(j)
+		}	//end for(i)
 		
 		// 삽입 정렬
 //		for(int i = 0; i < lotto.length; i++) {

@@ -2,7 +2,6 @@ package d_cal;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 import javax.swing.*;
 
 public class Calculator2 extends JFrame {
@@ -74,7 +73,7 @@ public class Calculator2 extends JFrame {
                         oper = str1; // oper에 연산자 저장
 
                         switch (oper) {
-                            case "+": // 누르면 이전에 누른 문자열이 Double로 형 변환 되면서 result에 저장되고, TextField가 비워진다.
+                            case "+": // 누르면 이전에 누른 문자열이 Double로 형 변환 되면서 result에 저장되고, TextField가 비워짐
                                 result = Double.parseDouble(tf.getText());
                                 tf.setText("");
                                 break;

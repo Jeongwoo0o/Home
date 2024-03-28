@@ -54,7 +54,6 @@ public class RentVideo extends JFrame {
 	void addLayout() {
 		
 		// 고객관리 탭
-		
 		setLayout(new BorderLayout());
 		
 		// Label, TestField 출력

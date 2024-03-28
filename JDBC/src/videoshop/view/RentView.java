@@ -74,15 +74,13 @@ public class RentView extends JPanel
 		tfRentTel			= new JTextField();
 		tfRentCustName		= new JTextField();
 		tfRentVideoNum		= new JTextField();
-		tfReturnVideoNum	= new JTextField();
+		tfReturnVideoNum	= new JTextField(20);
 		
 		// 고객관리 탭
 		
 		// 위쪽
 		JPanel pNorth = new JPanel();
-		pNorth.setLayout(new BorderLayout());
-		JPanel pNorth1 = new JPanel();
-		pNorth1.setLayout(new GridLayout(1, 2));
+		pNorth.setLayout(new GridLayout(1, 2));
 		
 		// 위쪽 왼쪽
 		JPanel pNorthWest = new JPanel();
@@ -106,17 +104,18 @@ public class RentView extends JPanel
 		pNorthEast.add(bReturn);
 		
 		// 위쪽 완성
-		pNorth.add(pNorthWest,BorderLayout.WEST);
-		pNorth.add(pNorthEast,BorderLayout.EAST);
+		pNorth.add(pNorthWest);
+		pNorth.add(pNorthEast);
 		
 		// 아래쪽
-		JPanel pSouth = new JPanel();
-		pSouth.setLayout(new BorderLayout());
+		JPanel pCenter = new JPanel();
+		pCenter.setLayout(new GridLayout(1, 1));
+		pCenter.add(new JScrollPane(table),BorderLayout.CENTER);
 		
 		
-		setLayout(new GridLayout(2,2));
-		add(pNorth);
-		add(pSouth);
+		setLayout(new BorderLayout());
+		add(pNorth, BorderLayout.NORTH);
+		add(pCenter,  BorderLayout.CENTER);
 		
 	}
 

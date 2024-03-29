@@ -113,7 +113,7 @@ public class EmpView {
 					tfJob	.setText(vo.getJob());
 
 				}catch(Exception ex) {
-					ta.setText("전화번호 검색 실패 : " + ex.getMessage());
+					ta.setText("검색 실패 : " + ex.getMessage());
 				} //end try-catch
 			}
 		});	//끝
